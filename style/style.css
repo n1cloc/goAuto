@@ -10,20 +10,63 @@
     width: 3.2em;
     height: 100%;
     background-color: #F00062;
-    float: left; }
+    float: right; }
   #liner #clor_2 {
     width: 3.2em;
     height: 100%;
     background-color: #8BCD00;
-    float: left; }
+    float: right; }
   #liner #clor_3 {
     width: 3.2em;
     height: 100%;
     background-color: #0093C4;
-    float: left; }
+    float: right; }
   #liner #clor_4 {
     width: 100%;
     height: 100%;
-    background-color: #242424; }
+    background-color: #222222; }
 
-/*end color*/
+/*end head line*/
+body {
+  background-color: #F9F9F9; }
+
+.topMenu {
+  background-color: #242424;
+  height: 115px; }
+  .topMenu .logo img {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    width: 60%; }
+  .topMenu .search * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .topMenu .search form {
+    position: absolute;
+    top: 50%;
+    width: 60%;
+    margin-top: -21px;
+    background: #F9F9F9; }
+  .topMenu .search input, .topMenu .search button {
+    border: none;
+    outline: none;
+    background: transparent; }
+  .topMenu .search input {
+    width: 100%;
+    height: 42px;
+    padding-left: 15px; }
+  .topMenu .search button {
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer; }
+  .topMenu .search button:before {
+    font-family: FontAwesome;
+    content: "\f002";
+    font-size: 50px;
+    color: #0093C4; }
+
+.test1 {
+  height: 300px; }
