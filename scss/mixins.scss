@@ -1,0 +1,7 @@
+//head line
+@mixin headLine ($color, $with) {
+	width:$with;
+    height:100%;
+    background-color:$color;
+    float:left;
+}

@@ -1,0 +1,21 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#liner {
+    width:100%;
+    height:$lineSize/10;
+    #clor_1 {@include headLine ($colorLine-1, $lineSize);}
+    #clor_2 {@include headLine ($colorLine-2, $lineSize);}
+    #clor_3 {@include headLine ($colorLine-3, $lineSize);}
+    #clor_4 {
+        width:100%;
+        height:100%;
+        background-color:$colorLine-4;
+    }
+}
+
+/*end color*/
